@@ -1,0 +1,35 @@
+body{
+    background: peru;
+    font-family: Arial;
+}
+img{
+    /* border: 10px solid gray; */
+    transition: 1s;
+    opacity: 0;
+    object-fit: cover;
+    width: 100%;
+    transform: rotate(360deg);
+    /* position: relative;
+    left: -40%; */
+}
+img.b-loaded{
+    opacity: 1;
+    /* left: 0; */
+    /* border-color: purple; */
+    transform: rotate(0deg);
+}
+figcaption{
+    background: wheat;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-bottom: 5px lightgray;
+}
+figure{
+    overflow: hidden;
+    /* border: 10 px solid red; */
+    background-image: url('../images/Rolling-1.3s-200px.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
